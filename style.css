@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+.main-header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('img/img.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    min-height: 600px;
+    
+}
+
+.main-header .showcase{
+    margin-top: 100px;
+}
+.services{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.contact{
+    margin-bottom: 30px;
+}
+.contact{
+    padding: 20px;
+}
+.social-media *{
+    margin-right:10px;
+}
+#mobile-nav{
+    background-image: url('img/img.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
